@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Drive Clone</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #4285f4;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .container {
+        margin-top: 20px;
+        padding: 20px;
+      }
+      .section-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      .folder {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        align-items: center;
+      }
+      .folder i {
+        font-size: 24px;
+        margin-right: 10px;
+      }
+      .folder-name {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h3 style="margin: 0">Google Drive</h3>
+      <div>
+        <a href="#!" class="white-text"><i class="material-icons">apps</i></a>
+        <a href="#!" class="white-text"
+          ><i class="material-icons">notifications</i></a
+        >
+        <a href="#!" class="white-text"
+          ><i class="material-icons">settings</i></a
+        >
+        <a href="#!"
+          ><img
+            src="pqr.jpg"
+            width="25"
+            height="25"
+            alt="profile picture"
+            class="circle"
+        /></a>
+      </div>
+    </header>
+    <div class="container">
+      <h4 class="section-title">My Drive</h4>
+      <div class="folder">
+        <i class="material-icons">folder</i>
+        <span class="folder-name">Documents</span>
+      </div>
+      <div class="folder">
+        <i class="material-icons">folder</i>
+        <span class="folder-name">Images</span>
+      </div>
+
+      <h4 class="section-title">Computers</h4>
+      <div class="folder">
+        <i class="material-icons">computer</i>
+        <span class="folder-name">Local Disk (C:)</span>
+      </div>
+      <div class="folder">
+        <i class="material-icons">computer</i>
+        <span class="folder-name">External Drive (D:)</span>
+      </div>
+
+      <h4 class="section-title">
+        <i class="material-icons">folder_shared</i> Shared with me
+      </h4>
+      <!-- Add shared folders here -->
+
+      <h4 class="section-title">
+        <i class="material-icons">schedule</i> Recent
+      </h4>
+      <!-- Add recent files here -->
+
+      <h4 class="section-title"><i class="material-icons">star</i> Starred</h4>
+      <!-- Add starred files here -->
+
+      <h4 class="section-title"><i class="material-icons">delete</i> Trash</h4>
+      <!-- Add trashed files here -->
+
+      <h4 class="section-title">
+        <i class="material-icons">backup</i> Backups
+      </h4>
+      <!-- Add backups here -->
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
